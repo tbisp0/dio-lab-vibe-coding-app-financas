@@ -6,6 +6,20 @@
 
 ---
 
+## 📌 Resumo Executivo: O que é o App de Finanças Pessoais?
+
+O **App de Finanças Pessoais Conversacional** é uma solução criada para acabar com o abandono do controle financeiro, substituindo formulários burocráticos e planilhas cansativas por uma **experiência fluida de diálogo com inteligência artificial**.
+
+* **Registro em Segundos (< 12s):** O usuário apenas diz ou digita frases como *"Paguei 68 reais de luz hoje"* ou clica em atalhos inteligentes de 1 toque.
+* **Validação Imediata com Liberdade:** A IA categoriza automaticamente entre 6 categorias fixas e exibe um cartão interativo com botões diretos de `[Mudar categoria]` e `[Desfazer]`.
+* **Orientação Positiva sem Julgamentos:** Apresenta sempre o *Saldo Livre da Semana* e dicas de economia contextualizadas, sem jargões bancários.
+* **Acessibilidade Universal (WCAG 2.2 AA):** Projetado para pessoas com deficiência visual, idosos, tremores motores ou TDAH (botões $\ge$ 48x48px, alto contraste e comandos por voz).
+* **Experiência Multitela (Mobile & Tablet):** Operação ergonômica com uma mão no smartphone e modo **Split-View ao vivo no tablet**, onde o chat atualiza gráficos e metas em tempo real lado a lado.
+
+> 📄 *Para uma leitura rápida e focada em negócios e produto, veja também o [RESUMO.md](file:///c:/projetos/dio-lab-vibe-coding-app-financas/RESUMO.md).*
+
+---
+
 ## 1. Visão Geral, Proposta de Valor e Métricas de Sucesso
 
 ### Proposta de Valor e Job-to-be-Done (JTBD)
