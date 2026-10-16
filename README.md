@@ -20,6 +20,34 @@ O **App de Finanças Pessoais Conversacional** é uma solução criada para acab
 
 ---
 
+## 🧠 Uma Breve Reflexão sobre o Processo
+
+> *Registro dos aprendizados, validações e desafios reais enfrentados durante a prototipagem com IA no Emergent.*  
+> 📄 *Documento dedicado disponível em [REFLEXAO.md](file:///c:/projetos/dio-lab-vibe-coding-app-financas/REFLEXAO.md).*
+
+### 1. O que funcionou bem?
+* **O PRD como Âncora Cognitiva:** A inclusão prévia do PRD Snippet completo acelerou todo o processo no Emergent. A IA não alucinou interfaces genéricas; em vez disso, conduziu uma entrevista técnica assertiva (escolha do Gemini 3 Flash, login Google gerenciado, Web Speech API nativa e FastAPI + MongoDB com atualização ao vivo).
+* **Entendimento de Diretrizes de Síntese:** A instrução extra *"Não complique"* foi perfeitamente assimilada, mantendo o escopo focado em soluções leves e diretas.
+* **Geração Fiel de UI/UX:** A landing page (*"Conversa Financeira"*) e a tela de onboarding (*Passo 1 de 2: "Olá, Tarcisio!"*) foram criadas com fidelidade impressionante às heurísticas de Nielsen e design universal, incluindo botões grandes de 48px, pílulas de renda e simulação de cartões com `[Desfazer]`.
+
+| Landing Page Gerada | Onboarding Conversacional (Passo 1) |
+| :---: | :---: |
+| ![Landing Page](assets/img/landing-page-emergent.png) | ![Onboarding](assets/img/onboarding-conversacional-emergent.png) |
+
+### 2. O que não funcionou como o esperado?
+* **Bug de Runtime no Frontend (`destroy is not a function`):** Apesar de todo o scaffolding ter sido gerado com sucesso (`server.py`, `useVoice.js`, `AuthCallback.jsx`), ao executar a aplicação no navegador ocorreu um erro clássico de React (`destroy is not a function` em `bundle.js`). Esse erro ocorre quando a função de retorno de um `useEffect` (comumente associada ao hook de áudio/Web Speech API) retorna uma Promise ou valor inválido em vez de uma função de cleanup.
+* **Esgotamento de Créditos da Plataforma:** Antes que fosse possível enviar o stack trace de volta ao agente autônomo para depuração e correção do código, a cota de créditos gratuitos da sessão se esgotou, interrompendo o ciclo final de deploy.
+
+![Runtime Error](assets/img/runtime-error-emergent.png)
+
+### 3. O que aprendeu sobre conversar com IAs?
+1. **Qualidade do Briefing:** Quanto mais rico e fundamentado for o PRD (com personas, restrições e regras visuais), mais assertivas e coerentes são as decisões arquiteturais tomadas pela IA.
+2. **Desenvolvimento em Fatias Finas (*Thin Slices*):** Pedir todo o ecossistema (banco, backend, auth, áudio e UI) de uma só vez satura tokens e créditos. O fluxo ideal é iterar modularmente: UI estática $\rightarrow$ fluxo de chat $\rightarrow$ hooks de voz $\rightarrow$ integração backend.
+3. **O Desenvolvedor como Diretor Técnico:** O Vibe Coding não substitui o conhecimento de engenharia; ele eleva o papel humano para o de arquiteto e revisor de qualidade, capaz de identificar problemas de ciclo de vida de componentes (como no `useEffect`) e conduzir a IA cirurgicamente.
+4. **Poder das Restrições Negativas:** Comandos curtos de restrição como *"Não complique"* atuam como salvaguardas essenciais contra sobre-engenharia da IA.
+
+---
+
 ## 1. Visão Geral, Proposta de Valor e Métricas de Sucesso
 
 ### Proposta de Valor e Job-to-be-Done (JTBD)
