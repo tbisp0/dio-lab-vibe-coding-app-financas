@@ -1,4 +1,4 @@
-# 🧠 Uma Breve Reflexão sobre o Processo
+# Uma Breve Reflexão sobre o Processo
 
 > **Desafio DIO: Vibe Coding com IA — Criando um App de Finanças Pessoais**  
 > *Autor: Tarcisio Bispo de Araujo*  
@@ -21,7 +21,7 @@
   - Landing Page completa com proposta de valor, pílulas de atalho, modo acessível e simulação do cartão de transação;
   - Onboarding personalizado (*"Olá, Tarcisio!"*) com indicador de progresso (*Passo 1 de 2*), botões amplos para faixas de renda e alternativa *"Prefiro digitar"*.
 
-### 📸 Evidências do que funcionou:
+### Evidências do que funcionou:
 
 | Landing Page Gerada | Onboarding Conversacional (Passo 1) |
 | :---: | :---: |
@@ -37,7 +37,7 @@
 * **Gargalo de Créditos antes do Ciclo de Correção (Debug):**
   Plataformas de Vibe Coding com agentes autônomos que realizam scaffolding completo (backend + frontend + rotas) realizam muitas chamadas consecutivas de LLM. Os créditos da sessão gratuita se esgotaram antes que fosse possível submeter o erro de volta ao agente para correção cirúrgica do bug e finalização do deploy.
 
-### 📸 Registro do erro de runtime:
+### Registro do erro de runtime:
 ![Runtime Error](assets/img/runtime-error-emergent.png)
 
 ---

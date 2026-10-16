@@ -1,16 +1,16 @@
-# 💡 Resumo do Produto: App de Finanças Pessoais Conversacional
+# Resumo do Produto: App de Finanças Pessoais Conversacional
 
 > **Conceito, Proposta de Valor e Diferenciais do MVP**  
 > *Projeto desenvolvido no contexto do desafio DIO Vibe Coding com IA*
 
 ---
 
-## 🧭 O que é o Aplicativo?
+## O que é o Aplicativo?
 O **App de Finanças Pessoais Conversacional** é uma solução inteligente desenhada para **eliminar a fricção, a ansiedade e o abandono** do controle financeiro pessoal. Em vez de obrigar o usuário a preencher formulários burocráticos ou navegar por planilhas intimidadoras, o aplicativo funciona por meio de uma **conversa natural e acolhedora** com um Agente de IA — suportando **voz, texto e toques rápidos**.
 
 ---
 
-## 🎯 Qual problema ele resolve?
+## Qual problema ele resolve?
 Mais de 70% das pessoas desistem de aplicativos financeiros convencionais logo nas primeiras duas semanas por três motivos centrais:
 1. **Entrada manual cansativa:** Formulários com muitos campos para cada cafezinho gasto.
 2. **Linguagem bancária fria e jargões contábeis:** Dificuldade de compreensão por iniciantes e leigos.
@@ -20,7 +20,7 @@ O nosso app resolve isso transformando o registro em um diálogo instantâneo de
 
 ---
 
-## ⚡ Como Funciona no Dia a Dia?
+## Como Funciona no Dia a Dia?
 
 ### 1. Registro Multimodal Instantâneo (< 12 segundos)
 O usuário pode falar ou digitar naturalmente:
@@ -43,7 +43,7 @@ Aba dedicada ou painel lateral onde guardar dinheiro vira progresso tangível: b
 
 ---
 
-## 🌟 Principais Diferenciais e Inovações
+## Principais Diferenciais e Inovações
 
 | Pilar | Como se Aplica no App | Benefício para o Usuário |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ Aba dedicada ou painel lateral onde guardar dinheiro vira progresso tangível: b
 
 ---
 
-## 📱 As 4 Telas Essenciais do MVP
+## As 4 Telas Essenciais do MVP
 1. **Onboarding Conversacional:** Boas-vindas amigáveis, renda aproximada e primeira meta configuradas em 2 perguntas rápidas com botões grandes.
 2. **Chat do Agente Financeiro (Home):** O coração do app, com saldo livre sempre visível, histórico com cartões interativos e botão de voz destacado.
 3. **Painel de Metas:** Progresso claro da meta principal, cofrinho digital e celebração de conquistas.

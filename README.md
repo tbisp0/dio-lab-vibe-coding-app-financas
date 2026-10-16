@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Resumo Executivo: O que é o App de Finanças Pessoais?
+## Resumo Executivo: O que é o App de Finanças Pessoais?
 
 O **App de Finanças Pessoais Conversacional** é uma solução criada para acabar com o abandono do controle financeiro, substituindo formulários burocráticos e planilhas cansativas por uma **experiência fluida de diálogo com inteligência artificial**.
 
@@ -16,14 +16,14 @@ O **App de Finanças Pessoais Conversacional** é uma solução criada para acab
 * **Acessibilidade Universal (WCAG 2.2 AA):** Projetado para pessoas com deficiência visual, idosos, tremores motores ou TDAH (botões $\ge$ 48x48px, alto contraste e comandos por voz).
 * **Experiência Multitela (Mobile & Tablet):** Operação ergonômica com uma mão no smartphone e modo **Split-View ao vivo no tablet**, onde o chat atualiza gráficos e metas em tempo real lado a lado.
 
-> 📄 *Para uma leitura rápida e focada em negócios e produto, veja também o [RESUMO.md](file:///c:/projetos/dio-lab-vibe-coding-app-financas/RESUMO.md).*
+> *Para uma leitura rápida e focada em negócios e produto, veja também o [RESUMO.md](file:///c:/projetos/dio-lab-vibe-coding-app-financas/RESUMO.md).*
 
 ---
 
-## 🧠 Uma Breve Reflexão sobre o Processo
+## Uma Breve Reflexão sobre o Processo
 
 > *Registro dos aprendizados, validações e desafios reais enfrentados durante a prototipagem com IA no Emergent.*  
-> 📄 *Documento dedicado disponível em [REFLEXAO.md](file:///c:/projetos/dio-lab-vibe-coding-app-financas/REFLEXAO.md).*
+> *Documento dedicado disponível em [REFLEXAO.md](file:///c:/projetos/dio-lab-vibe-coding-app-financas/REFLEXAO.md).*
 
 ### 1. O que funcionou bem?
 * **O PRD como Âncora Cognitiva:** A inclusão prévia do PRD Snippet completo acelerou todo o processo no Emergent. A IA não alucinou interfaces genéricas; em vez disso, conduziu uma entrevista técnica assertiva (escolha do Gemini 3 Flash, login Google gerenciado, Web Speech API nativa e FastAPI + MongoDB com atualização ao vivo).
